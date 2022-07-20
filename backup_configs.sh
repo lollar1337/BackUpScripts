@@ -3,7 +3,7 @@ backup_files="/home/thisjade/.config/i3 /home/thisjade/.config/polybar /home/thi
 
 # Where to backup to.
 dest="/home/thisjade/mnt/google-drive/Configs"
-dest_secondary="/home/thisjade/mnt/onedrive/linux_configs"
+dest_secondary="/home/thisjade/mnt/onedrive/Backups/Linux/config"
 
 # Create archive filename.
 day=$(date +%F)
