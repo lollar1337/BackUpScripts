@@ -3,6 +3,7 @@ backup_files="/home/thisjade/Jobs"
 
 # Where to backup to.
 dest="/home/thisjade/mnt/google-drive/Jobs"
+dest2="/home/thisjade/mnt/onedrive/Backups/Linux/jobs"
 
 # Create archive filename.
 day=$(date +%F)
@@ -17,6 +18,7 @@ echo
 
 # Backup the files using tar.
 tar cvzf $dest/$archive_file $backup_files
+tar cvzf $dest2/$archive_file $backup_files
 
 # Print end status message.
 echo "Backup finished"
